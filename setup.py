@@ -19,5 +19,7 @@ metadata = dict(name='MCMCPYJW',
 	maintainer_email = 'jonas.wallin81@gmail.com',
 	url              = 'https://github.com/JonasWallin/MCMCPYJW',
 	author_email     = 'jonas.wallin81@gmail.com',
-	install_requires = ['numpy'])
+	install_requires = ['numpy'],
+     # extras_require   = {'scripts':  ['matplotlib']}
+              )
 setup(**metadata)

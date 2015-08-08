@@ -15,11 +15,11 @@ class Amcmc_RR(object):
         taken from Roberts o Rosenthal Examples of Adaptive MCMC
     """
     
-    def __init__(self, sigma = 1., batch = 50, accpate = 0.3, delta_rate = .5):
+    def __init__(self, sigma = 1., batch = 50, accpate = 0.2, delta_rate = .5):
         """
             *sigma*        - (double) the scaling coeffient
             *batch*        - (int) how often to update sigma_MCMC
-            *accpate*      - [0,1] desired accpance rate (0.3)
+            *accpate*      - [0,1] desired accpance rate (0.2)
             *delta_rate*   - [0,1] updating ratio for the amcmc
         """
         
